@@ -13,3 +13,5 @@ data:
         http:
           valid_status_codes: []
           method: GET
+          tls_config:
+            insecure_skip_verify: true
